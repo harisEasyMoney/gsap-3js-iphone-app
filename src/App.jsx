@@ -1,3 +1,13 @@
+import Hero from "./Components/Hero";
+import Highlights from "./Components/Highlights";
+import Nav from "./Components/Nav";
+
 export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <main className="bg-black">
+      <Nav />
+      <Hero />
+      <Highlights />
+    </main>
+  );
 }
