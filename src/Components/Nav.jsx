@@ -2,7 +2,7 @@ import { appleImg, bagImg, searchImg } from "../utils";
 import { navLists } from "../constants";
 const Nav = () => {
   return (
-    <header className="w-full py-5 sm:px-10 px-5 flex justify-between items-center ">
+    <header className="w-full py-5 sm:px-10 px-5 flex justify-between items-center">
       <nav className="flex w-full screen-max-width">
         <img
           className="hover:scale-125 cursor-pointer transition-all"
